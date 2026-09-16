@@ -1,7 +1,7 @@
 """05 Retrieval / Knowledge Base
 
 STUB: /search ตอบ chunk ปลอมหนึ่งชิ้นที่มี Source ครบทุก field
-ของจริงคือ hybrid BM25 + vector รวมด้วย RRF (ดู docs/team/05_retrieval_knowledge.md)
+ของจริงคือ hybrid BM25 + vector รวมด้วย RRF (ดู ไฟล์ที่ปักหมุดในห้อง Discord #05-retrieval)
 
 ข้อควรระวังที่เขียนไว้ให้แล้วในเอกสาร และมีผลกับไฟล์นี้โดยตรง
   * ห้ามโหลดโมเดล embedding แบบ blocking ใน startup event

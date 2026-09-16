@@ -3,7 +3,7 @@
 STUB: ยังไม่ทำอะไร เจ้าของโมดูลมาเขียนต่อ
 ลำดับที่ต้องทำ: extract -> clean -> รวมคู่ถาม-ตอบเป็นเอกสาร -> chunk -> embed -> เขียนลง INDEX_DIR
 
-อย่าลืมสามข้อจาก docs/team/05_retrieval_knowledge.md
+อย่าลืมสามข้อจาก ไฟล์ที่ปักหมุดในห้อง Discord #05-retrieval
   1. คู่ถาม-ตอบเดี่ยว ๆ สั้นเกินกว่าที่ขั้น chunk จะทำงาน ต้องรวมเป็นเอกสารก่อน
   2. หมวดภาษาไทยทั้ง 10 หมวด map เป็น category `it_support` แล้วเก็บหมวดเดิมเป็น metadata
   3. map relevant_chunk_ids ของ golden set ให้ตรงกับ chunk_id ใหม่ **ทำก่อนอย่างอื่น**
