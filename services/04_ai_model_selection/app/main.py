@@ -3,7 +3,7 @@
 STUB: ทุก endpoint ในไฟล์นี้ตอบค่าปลอมที่ "หน้าตาถูกตาม contract" เท่านั้น
 เจ้าของโมดูลมาแทนด้วยของจริง โดยห้ามเปลี่ยนรูปแบบ request/response
 
-ของจริงที่ต้องทำ (ดู docs/team/04_ai_model_selection.md)
+ของจริงที่ต้องทำ (ดู ไฟล์ที่ปักหมุดในห้อง Discord #04-engines)
   /general        เรียก LLM ผ่านไลบรารี openai ชี้ base_url ไป Groq + fallback
   /local/classify โมเดล TF-IDF + LogisticRegression ที่เทรนเอง 8 หมวด
 """

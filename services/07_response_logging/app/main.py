@@ -1,7 +1,7 @@
 """07 Response / Log / Feedback — ความจำของระบบ
 
 STUB: เก็บทุกอย่างไว้ในหน่วยความจำของ process ยังไม่ได้ต่อ postgres
-ของจริงดู docs/team/07_response_logging.md
+ของจริงดู ไฟล์ที่ปักหมุดในห้อง Discord #07-logging
 
 สี่กติกาที่พลาดแล้วพังเงียบ ใส่ไว้ใน stub นี้แล้วเพื่อกันลืมตอนเขียนของจริง
   1. limit = จำนวนข้อความ "ล่าสุด" -> ORDER BY created_at DESC LIMIT n แล้วค่อยกลับลำดับ

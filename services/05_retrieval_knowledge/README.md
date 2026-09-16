@@ -23,6 +23,7 @@ make up                 # ทั้งระบบ
 make logs s=retrieval   # ดู log เฉพาะตัวนี้
 make rebuild s=retrieval
 ```
+แก้ไฟล์ใน `app/` แล้ว reload ให้เองภายในไม่กี่วินาที **ไม่ต้อง rebuild** · `make rebuild` ใช้เฉพาะตอนแก้ `requirements.txt` หรือไฟล์นอก `app/`
 ตอน dev ตัวนี้เปิด port ไว้ debug ด้วย ดูเลขใน `docker-compose.override.yml`
 
 ## ไฟล์ที่ห้ามแก้

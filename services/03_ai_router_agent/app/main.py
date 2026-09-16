@@ -4,7 +4,7 @@ STUB: ตัดสินใจด้วย keyword หยาบ ๆ แค่พ
 **แต่เรียก 04 / 05 / 06 ผ่าน HTTP จริง** เพื่อให้รู้ตั้งแต่วันแรกว่าสายต่อกันติดหรือไม่
 
 ของจริงคือ cascade 4 ชั้นและตาราง rule base ที่ล็อกไว้แล้ว
-ดู docs/team/03_ai_router_agent.md และ docs/CONTRACT.md ข้อ 3
+ดู ไฟล์ที่ปักหมุดในห้อง Discord #03-router และ docs/CONTRACT.md ข้อ 3
 """
 from __future__ import annotations
 
@@ -48,7 +48,7 @@ async def health():
     return health_payload()
 
 
-# STUB: replace -- ของจริงใช้ตาราง rule base เต็มใน docs/team/03_ai_router_agent.md
+# STUB: replace -- ของจริงใช้ตาราง rule base เต็มใน ไฟล์ที่ปักหมุดในห้อง Discord #03-router
 RAG_WORDS = ("ไวไฟ", "wifi", "เน็ต", "รหัสผ่าน", "บัญชี", "แบต", "เครื่องช้า",
              "พื้นที่เต็ม", "สำรองข้อมูล", "อัปเดต", "กล้อง", "ไมค์", "สแกม")
 LOCAL_WORDS = ("จำแนก", "จัดประเภท", "หมวดหมู่", "classify")

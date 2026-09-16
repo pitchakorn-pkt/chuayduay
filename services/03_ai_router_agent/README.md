@@ -23,6 +23,7 @@ make up
 make logs s=router
 make rebuild s=router
 ```
+แก้ไฟล์ใน `app/` แล้ว reload ให้เองภายในไม่กี่วินาที **ไม่ต้อง rebuild** · `make rebuild` ใช้เฉพาะตอนแก้ `requirements.txt` หรือไฟล์นอก `app/`
 
 ## ไฟล์ที่ห้ามแก้
 

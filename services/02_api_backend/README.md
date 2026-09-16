@@ -14,6 +14,8 @@ curl -b /tmp/c -X POST localhost:8000/api/chat -H 'Content-Type: application/jso
   -d '{"session_id":null,"message":"ต่อไวไฟไม่ได้","file_ids":[]}'
 ```
 
+แก้ไฟล์ใน `app/` ตอนรันผ่าน `make up` แล้ว reload ให้เองภายในไม่กี่วินาที **ไม่ต้อง rebuild** (rebuild เฉพาะตอนแก้ `requirements.txt`)
+
 หาคำว่า `STUB: replace` แล้วแทนด้วยของจริง **ห้ามเปลี่ยนรูปแบบ request/response**
 
 ## ลำดับ 10 ขั้นของ /api/chat
